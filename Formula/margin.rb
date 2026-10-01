@@ -1,15 +1,15 @@
 class Margin < Formula
   desc "Review AI-written markdown like a Google Doc"
   homepage "https://github.com/ariboren/margin"
-  url "https://registry.npmjs.org/margin-md/-/margin-md-0.2.0.tgz"
-  sha256 "fb333375b5d9940cb0c87fbc33ad0634e372110a1da8c27768d9b00f196af134"
+  url "https://registry.npmjs.org/margin-md/-/margin-md-0.2.1.tgz"
+  sha256 "bdf805ca9c187877519e4ea51c8825d028a15f13813f4ad9bfdf9e2e46184ad4"
   license "MIT"
 
   depends_on "bun"
 
   # The npm tarball has no lockfile; the tagged one pins the dependency install.
   resource "bun.lock" do
-    url "https://raw.githubusercontent.com/ariboren/margin/v0.2.0/bun.lock"
+    url "https://raw.githubusercontent.com/ariboren/margin/v0.2.1/bun.lock"
     sha256 "d03265545ae9294161c9606302a8f48e93a5a9a4566f8275c7ee58fa667ad58a"
   end
 
